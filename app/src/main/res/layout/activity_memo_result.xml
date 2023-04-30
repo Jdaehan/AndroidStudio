@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button06"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:orientation="horizontal"
+            android:text="돌아가기"
+            android:textColor="#010C15"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button07"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="#F44336"
+            android:text="처음으로"
+            android:textColor="#000000"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hapticFeedbackEnabled="false"
+            android:numStars="5"
+            android:progressBackgroundTint="#100E01"
+            android:rating="3.0"
+            android:stepSize="0.5" />
+
+        <Button
+            android:id="@+id/button09"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D5EA06"
+            android:text="★평가★"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="#F1EBEA"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="앱에 있는 사진의 저작권은 제작자인 '장대한'에게 있습니다. 제가 직접 찍은 사진들입니다. 만약 저장하고 싶으면 해당 하는 주소로 연락주세요!                                       Email: hyun342771@naver.com                          Instargram: dae_han_"
+        android:textColor="#FBF8F8"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
