@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz"
+    tools:context=".Fragment01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@drawable/quiz2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="일명 서브 액티비티라고 부르며 하나의 액티비티 안에 결합하여서 mullti-pane UI를 구출할 수 있는 것은?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|fill|fill_vertical"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="프래그먼트"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/radioButton22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="어댑터 뷰"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/radioButto23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="태스크"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/radioButton24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="인텐트"
+                android:textStyle="bold"/>
+        </RadioGroup>
+    </LinearLayout>
+
+</FrameLayout>
