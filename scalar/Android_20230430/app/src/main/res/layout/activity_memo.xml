@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cherryblossoms"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:orientation="horizontal"
+            android:text="돌아가기"
+            android:textColor="#010C15"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button05"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="#CDDC39"
+            android:text="★앱 평점 남기기"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="제목을 입력해주세요."
+        android:inputType="textPersonName"
+        android:textColor="#09186A" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="#070112"
+        android:gravity="top"
+        android:hint="메모할 내용을 입력해주세요."
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
